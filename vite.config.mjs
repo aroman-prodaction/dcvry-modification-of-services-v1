@@ -2,6 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
+  base: "/dcvry-modification-of-services-v1/",
   optimizeDeps: {
     include: ["react", "react-dom/client"],
   },
